@@ -363,7 +363,8 @@ body {
   margin-top: -20px;
 }
 #logo,
-#subtitle {
+#subtitle,
+#AllenTitle {
   text-decoration: none;
   color: #fff;
   font-weight: 300;
@@ -382,6 +383,13 @@ body {
 #subtitle-wrap {
   margin-top: 16px;
 }
+#AllenTitle {
+  text-align: center;
+  font-size: 40px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #000;
+}
 #main-nav {
   float: left;
   margin-left: -15px;
@@ -389,7 +397,7 @@ body {
 .nav-icon,
 .main-nav-link {
   float: left;
-  color: #fff;
+  color: #000;
   opacity: 0.6;
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
